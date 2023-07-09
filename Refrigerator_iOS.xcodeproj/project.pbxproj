@@ -19,6 +19,7 @@
 		0502B46B2A56E0CD00E9AF4E /* IngredientModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B46A2A56E0CD00E9AF4E /* IngredientModels.swift */; };
 		0502B46E2A56E64600E9AF4E /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B46C2A56E64600E9AF4E /* IngredientTableViewCell.swift */; };
 		0502B46F2A56E64600E9AF4E /* IngredientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0502B46D2A56E64600E9AF4E /* IngredientTableViewCell.xib */; };
+		0502B4712A5A7CF600E9AF4E /* NutritionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B4702A5A7CF600E9AF4E /* NutritionModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0502B46A2A56E0CD00E9AF4E /* IngredientModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModels.swift; sourceTree = "<group>"; };
 		0502B46C2A56E64600E9AF4E /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
 		0502B46D2A56E64600E9AF4E /* IngredientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientTableViewCell.xib; sourceTree = "<group>"; };
+		0502B4702A5A7CF600E9AF4E /* NutritionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				0502B46A2A56E0CD00E9AF4E /* IngredientModels.swift */,
+				0502B4702A5A7CF600E9AF4E /* NutritionModels.swift */,
 				0502B4672A56DFF700E9AF4E /* Ingredient */,
 				0502B4372A52F9D400E9AF4E /* AppDelegate.swift */,
 				0502B4392A52F9D400E9AF4E /* SceneDelegate.swift */,
@@ -280,6 +283,7 @@
 				0502B43C2A52F9D400E9AF4E /* ViewController.swift in Sources */,
 				0502B4382A52F9D400E9AF4E /* AppDelegate.swift in Sources */,
 				0502B46B2A56E0CD00E9AF4E /* IngredientModels.swift in Sources */,
+				0502B4712A5A7CF600E9AF4E /* NutritionModels.swift in Sources */,
 				0502B43A2A52F9D400E9AF4E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,12 @@ class IngredientTableViewCell: UITableViewCell {
 
     @IBOutlet weak var weightLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var tagIcon: UILabel!
+    @IBOutlet weak var tagIcon2: UILabel!
+    @IBOutlet weak var tagIcon3: UILabel!
+    @IBOutlet weak var tagIcon4: UILabel!
+    @IBOutlet weak var tagIcon5: UILabel!
+    @IBOutlet weak var exceedLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
