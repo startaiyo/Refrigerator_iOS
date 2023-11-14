@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0502B4382A52F9D400E9AF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B4372A52F9D400E9AF4E /* AppDelegate.swift */; };
-		0502B43A2A52F9D400E9AF4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B4392A52F9D400E9AF4E /* SceneDelegate.swift */; };
 		0502B43C2A52F9D400E9AF4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B43B2A52F9D400E9AF4E /* ViewController.swift */; };
-		0502B43F2A52F9D400E9AF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0502B43D2A52F9D400E9AF4E /* Main.storyboard */; };
 		0502B4412A52F9D800E9AF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0502B4402A52F9D800E9AF4E /* Assets.xcassets */; };
-		0502B4442A52F9D800E9AF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0502B4422A52F9D800E9AF4E /* LaunchScreen.storyboard */; };
 		0502B44F2A52F9D900E9AF4E /* Refrigerator_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B44E2A52F9D900E9AF4E /* Refrigerator_iOSTests.swift */; };
 		0502B4592A52F9D900E9AF4E /* Refrigerator_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B4582A52F9D900E9AF4E /* Refrigerator_iOSUITests.swift */; };
 		0502B45B2A52F9D900E9AF4E /* Refrigerator_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B45A2A52F9D900E9AF4E /* Refrigerator_iOSUITestsLaunchTests.swift */; };
 		0502B46B2A56E0CD00E9AF4E /* IngredientModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B46A2A56E0CD00E9AF4E /* IngredientModels.swift */; };
-		0502B46E2A56E64600E9AF4E /* IngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B46C2A56E64600E9AF4E /* IngredientTableViewCell.swift */; };
-		0502B46F2A56E64600E9AF4E /* IngredientTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0502B46D2A56E64600E9AF4E /* IngredientTableViewCell.xib */; };
 		0502B4712A5A7CF600E9AF4E /* NutritionModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0502B4702A5A7CF600E9AF4E /* NutritionModels.swift */; };
+		05CE91F12AFA720A007C284E /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE91F02AFA720A007C284E /* LaunchScreenViewController.swift */; };
+		05CE91F32AFA7273007C284E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CE91F22AFA7273007C284E /* LaunchScreen.storyboard */; };
+		05CE91F52AFA73B1007C284E /* IngredientListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE91F42AFA73B1007C284E /* IngredientListCoordinator.swift */; };
+		05CE91F82AFA743B007C284E /* IngredientListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE91F72AFA743B007C284E /* IngredientListViewController.swift */; };
+		05CE91FA2AFA7498007C284E /* IngredientList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CE91F92AFA7498007C284E /* IngredientList.storyboard */; };
+		05CE91FD2B006523007C284E /* IngredientListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE91FC2B006523007C284E /* IngredientListItemTableViewCell.swift */; };
+		05CE91FF2B00653E007C284E /* IngredientListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05CE91FE2B00653E007C284E /* IngredientListItemTableViewCell.xib */; };
+		05CE92022B0069C6007C284E /* IngredientListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE92012B0069C6007C284E /* IngredientListItemViewModel.swift */; };
+		05CE92042B00713F007C284E /* IngredientListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE92032B00713F007C284E /* IngredientListViewModel.swift */; };
+		05CE92072B0081DF007C284E /* IngredientListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE92062B0081DF007C284E /* IngredientListRow.swift */; };
+		05CE92092B00847E007C284E /* IngredientListViewController+IngredientDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE92082B00847E007C284E /* IngredientListViewController+IngredientDataSource.swift */; };
+		05CE920D2B00D466007C284E /* IngredientListItemTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CE920C2B00D466007C284E /* IngredientListItemTableHeaderView.swift */; };
+		05CE920F2B00D475007C284E /* IngredientListItemTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05CE920E2B00D475007C284E /* IngredientListItemTableHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +50,8 @@
 /* Begin PBXFileReference section */
 		0502B4342A52F9D400E9AF4E /* Refrigerator_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Refrigerator_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0502B4372A52F9D400E9AF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0502B4392A52F9D400E9AF4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0502B43B2A52F9D400E9AF4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0502B43E2A52F9D400E9AF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0502B4402A52F9D800E9AF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0502B4432A52F9D800E9AF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0502B4452A52F9D800E9AF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0502B44A2A52F9D900E9AF4E /* Refrigerator_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Refrigerator_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0502B44E2A52F9D900E9AF4E /* Refrigerator_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refrigerator_iOSTests.swift; sourceTree = "<group>"; };
@@ -54,9 +59,20 @@
 		0502B4582A52F9D900E9AF4E /* Refrigerator_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refrigerator_iOSUITests.swift; sourceTree = "<group>"; };
 		0502B45A2A52F9D900E9AF4E /* Refrigerator_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refrigerator_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0502B46A2A56E0CD00E9AF4E /* IngredientModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientModels.swift; sourceTree = "<group>"; };
-		0502B46C2A56E64600E9AF4E /* IngredientTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientTableViewCell.swift; sourceTree = "<group>"; };
-		0502B46D2A56E64600E9AF4E /* IngredientTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientTableViewCell.xib; sourceTree = "<group>"; };
 		0502B4702A5A7CF600E9AF4E /* NutritionModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionModels.swift; sourceTree = "<group>"; };
+		05CE91F02AFA720A007C284E /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		05CE91F22AFA7273007C284E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05CE91F42AFA73B1007C284E /* IngredientListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListCoordinator.swift; sourceTree = "<group>"; };
+		05CE91F72AFA743B007C284E /* IngredientListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListViewController.swift; sourceTree = "<group>"; };
+		05CE91F92AFA7498007C284E /* IngredientList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IngredientList.storyboard; sourceTree = "<group>"; };
+		05CE91FC2B006523007C284E /* IngredientListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListItemTableViewCell.swift; sourceTree = "<group>"; };
+		05CE91FE2B00653E007C284E /* IngredientListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientListItemTableViewCell.xib; sourceTree = "<group>"; };
+		05CE92012B0069C6007C284E /* IngredientListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListItemViewModel.swift; sourceTree = "<group>"; };
+		05CE92032B00713F007C284E /* IngredientListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListViewModel.swift; sourceTree = "<group>"; };
+		05CE92062B0081DF007C284E /* IngredientListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListRow.swift; sourceTree = "<group>"; };
+		05CE92082B00847E007C284E /* IngredientListViewController+IngredientDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IngredientListViewController+IngredientDataSource.swift"; sourceTree = "<group>"; };
+		05CE920C2B00D466007C284E /* IngredientListItemTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListItemTableHeaderView.swift; sourceTree = "<group>"; };
+		05CE920E2B00D475007C284E /* IngredientListItemTableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngredientListItemTableHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,18 +123,10 @@
 		0502B4362A52F9D400E9AF4E /* Refrigerator_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0502B46A2A56E0CD00E9AF4E /* IngredientModels.swift */,
-				0502B4702A5A7CF600E9AF4E /* NutritionModels.swift */,
-				0502B4672A56DFF700E9AF4E /* Ingredient */,
-				0502B4372A52F9D400E9AF4E /* AppDelegate.swift */,
-				0502B4392A52F9D400E9AF4E /* SceneDelegate.swift */,
+				05CE91E72AFA7045007C284E /* Swift */,
 				0502B43B2A52F9D400E9AF4E /* ViewController.swift */,
-				0502B43D2A52F9D400E9AF4E /* Main.storyboard */,
 				0502B4402A52F9D800E9AF4E /* Assets.xcassets */,
-				0502B4422A52F9D800E9AF4E /* LaunchScreen.storyboard */,
 				0502B4452A52F9D800E9AF4E /* Info.plist */,
-				0502B46C2A56E64600E9AF4E /* IngredientTableViewCell.swift */,
-				0502B46D2A56E64600E9AF4E /* IngredientTableViewCell.xib */,
 			);
 			path = Refrigerator_iOS;
 			sourceTree = "<group>";
@@ -140,11 +148,131 @@
 			path = Refrigerator_iOSUITests;
 			sourceTree = "<group>";
 		};
-		0502B4672A56DFF700E9AF4E /* Ingredient */ = {
+		05CE91E72AFA7045007C284E /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				0502B4372A52F9D400E9AF4E /* AppDelegate.swift */,
+				05CE91EB2AFA70EA007C284E /* Domain */,
+				05CE91E82AFA704F007C284E /* Presentation */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		05CE91E82AFA704F007C284E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				05CE91E92AFA7058007C284E /* IngredientListScene */,
+				05CE91EA2AFA706B007C284E /* LaunchScreenScene */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		05CE91E92AFA7058007C284E /* IngredientListScene */ = {
+			isa = PBXGroup;
+			children = (
+				05CE91F42AFA73B1007C284E /* IngredientListCoordinator.swift */,
+				05CE92052B0081C7007C284E /* SceneModels */,
+				05CE91F62AFA741B007C284E /* ViewControllers */,
+				05CE92002B0069A0007C284E /* ViewModels */,
+				05CE91FB2B0064E8007C284E /* Views */,
+			);
+			path = IngredientListScene;
+			sourceTree = "<group>";
+		};
+		05CE91EA2AFA706B007C284E /* LaunchScreenScene */ = {
+			isa = PBXGroup;
+			children = (
+				05CE91F22AFA7273007C284E /* LaunchScreen.storyboard */,
+				05CE91F02AFA720A007C284E /* LaunchScreenViewController.swift */,
+			);
+			path = LaunchScreenScene;
+			sourceTree = "<group>";
+		};
+		05CE91EB2AFA70EA007C284E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				05CE91EC2AFA70F4007C284E /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		05CE91EC2AFA70F4007C284E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05CE91EE2AFA7127007C284E /* Nutrition */,
+				05CE91ED2AFA70FC007C284E /* Ingredient */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05CE91ED2AFA70FC007C284E /* Ingredient */ = {
+			isa = PBXGroup;
+			children = (
+				0502B46A2A56E0CD00E9AF4E /* IngredientModels.swift */,
 			);
 			path = Ingredient;
+			sourceTree = "<group>";
+		};
+		05CE91EE2AFA7127007C284E /* Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				0502B4702A5A7CF600E9AF4E /* NutritionModels.swift */,
+			);
+			path = Nutrition;
+			sourceTree = "<group>";
+		};
+		05CE91F62AFA741B007C284E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				05CE91F92AFA7498007C284E /* IngredientList.storyboard */,
+				05CE91F72AFA743B007C284E /* IngredientListViewController.swift */,
+				05CE92082B00847E007C284E /* IngredientListViewController+IngredientDataSource.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		05CE91FB2B0064E8007C284E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05CE920B2B00D43A007C284E /* IngredientListItemTableHeaderView */,
+				05CE920A2B00D422007C284E /* IngredientListItemTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05CE92002B0069A0007C284E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				05CE92012B0069C6007C284E /* IngredientListItemViewModel.swift */,
+				05CE92032B00713F007C284E /* IngredientListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		05CE92052B0081C7007C284E /* SceneModels */ = {
+			isa = PBXGroup;
+			children = (
+				05CE92062B0081DF007C284E /* IngredientListRow.swift */,
+			);
+			path = SceneModels;
+			sourceTree = "<group>";
+		};
+		05CE920A2B00D422007C284E /* IngredientListItemTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				05CE91FC2B006523007C284E /* IngredientListItemTableViewCell.swift */,
+				05CE91FE2B00653E007C284E /* IngredientListItemTableViewCell.xib */,
+			);
+			path = IngredientListItemTableViewCell;
+			sourceTree = "<group>";
+		};
+		05CE920B2B00D43A007C284E /* IngredientListItemTableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				05CE920C2B00D466007C284E /* IngredientListItemTableHeaderView.swift */,
+				05CE920E2B00D475007C284E /* IngredientListItemTableHeaderView.xib */,
+			);
+			path = IngredientListItemTableHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,10 +379,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0502B46F2A56E64600E9AF4E /* IngredientTableViewCell.xib in Resources */,
-				0502B4442A52F9D800E9AF4E /* LaunchScreen.storyboard in Resources */,
+				05CE91FF2B00653E007C284E /* IngredientListItemTableViewCell.xib in Resources */,
+				05CE91F32AFA7273007C284E /* LaunchScreen.storyboard in Resources */,
+				05CE91FA2AFA7498007C284E /* IngredientList.storyboard in Resources */,
+				05CE920F2B00D475007C284E /* IngredientListItemTableHeaderView.xib in Resources */,
 				0502B4412A52F9D800E9AF4E /* Assets.xcassets in Resources */,
-				0502B43F2A52F9D400E9AF4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,12 +408,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0502B46E2A56E64600E9AF4E /* IngredientTableViewCell.swift in Sources */,
+				05CE91F82AFA743B007C284E /* IngredientListViewController.swift in Sources */,
 				0502B43C2A52F9D400E9AF4E /* ViewController.swift in Sources */,
+				05CE92092B00847E007C284E /* IngredientListViewController+IngredientDataSource.swift in Sources */,
 				0502B4382A52F9D400E9AF4E /* AppDelegate.swift in Sources */,
 				0502B46B2A56E0CD00E9AF4E /* IngredientModels.swift in Sources */,
+				05CE91F52AFA73B1007C284E /* IngredientListCoordinator.swift in Sources */,
+				05CE91F12AFA720A007C284E /* LaunchScreenViewController.swift in Sources */,
+				05CE920D2B00D466007C284E /* IngredientListItemTableHeaderView.swift in Sources */,
 				0502B4712A5A7CF600E9AF4E /* NutritionModels.swift in Sources */,
-				0502B43A2A52F9D400E9AF4E /* SceneDelegate.swift in Sources */,
+				05CE92022B0069C6007C284E /* IngredientListItemViewModel.swift in Sources */,
+				05CE91FD2B006523007C284E /* IngredientListItemTableViewCell.swift in Sources */,
+				05CE92042B00713F007C284E /* IngredientListViewModel.swift in Sources */,
+				05CE92072B0081DF007C284E /* IngredientListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,25 +455,6 @@
 			targetProxy = 0502B4552A52F9D900E9AF4E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0502B43D2A52F9D400E9AF4E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0502B43E2A52F9D400E9AF4E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0502B4422A52F9D800E9AF4E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0502B4432A52F9D800E9AF4E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0502B45C2A52F9D900E9AF4E /* Debug */ = {
@@ -465,7 +582,6 @@
 				INFOPLIST_FILE = Refrigerator_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,7 +608,6 @@
 				INFOPLIST_FILE = Refrigerator_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
