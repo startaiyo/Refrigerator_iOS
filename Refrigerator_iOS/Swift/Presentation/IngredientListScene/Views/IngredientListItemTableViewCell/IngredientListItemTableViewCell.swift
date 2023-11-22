@@ -93,7 +93,7 @@ private extension IngredientListItemTableViewCell {
                 label.backgroundColor = .white
             case .vitamin:
                 label.textColor = .white
-                label.backgroundColor = .green
+            label.backgroundColor = Color.vitaminGreen.value
             case .mineral:
                 label.textColor = .white
                 label.backgroundColor = .blue
