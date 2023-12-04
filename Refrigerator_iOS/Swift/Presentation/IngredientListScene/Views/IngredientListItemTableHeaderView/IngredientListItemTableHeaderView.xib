@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="G1a-9V-TAF" customClass="IngredientListItemTableHeaderView" customModule="Refrigerator_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="393" placeholderIntrinsicHeight="40" translatesAutoresizingMaskIntoConstraints="NO" id="vbo-cN-yof">
+                    <rect key="frame" x="35" y="59" width="328" height="6"/>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="bo2-ha-MSR"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="bo2-ha-MSR" firstAttribute="top" secondItem="vbo-cN-yof" secondAttribute="top" id="0G8-PZ-WKS"/>
+                <constraint firstItem="bo2-ha-MSR" firstAttribute="trailing" secondItem="vbo-cN-yof" secondAttribute="trailing" constant="30" id="JRF-Ef-vIP"/>
+                <constraint firstItem="vbo-cN-yof" firstAttribute="bottom" secondItem="bo2-ha-MSR" secondAttribute="bottom" id="k5X-Ho-UXg"/>
+                <constraint firstItem="vbo-cN-yof" firstAttribute="leading" secondItem="bo2-ha-MSR" secondAttribute="leading" constant="35" id="mci-r3-r7s"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="titleLabelStackView" destination="vbo-cN-yof" id="v3m-JE-33A"/>
+            </connections>
+            <point key="canvasLocation" x="148.85496183206106" y="-243.3098591549296"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
